@@ -1,0 +1,19 @@
+void setup() {
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);    // sets the digital pin 13 as output
+}
+
+void loop() {
+  digitalWrite(13, HIGH); // sets the digital pin 13 on
+  digitalWrite(12, HIGH);
+  digitalWrite(11, HIGH);
+  digitalWrite(10, HIGH);
+  delay(1000);            // waits for a second
+  digitalWrite(13, LOW); 
+  digitalWrite(12, LOW);  // sets the digital pin 13 off
+  digitalWrite(11, LOW);
+  digitalWrite(10, LOW);
+  delay(1000);
+}
